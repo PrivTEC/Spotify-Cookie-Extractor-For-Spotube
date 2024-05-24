@@ -41,3 +41,31 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) file
 ## More Information
 
 Visit the [Spotube project page on GitHub](https://github.com/KRTirtho/spotube) for more information about Spotube.
+
+==============================
+
+[Privacy Policy](#privacy-policy)
+
+## Privacy Policy
+
+**Privacy Policy for Spotify Cookie Extractor for Spotube**
+
+The Spotify Cookie Extractor for Spotube is designed to extract the 'sp_dc' cookies from Spotify and use them within the Spotube application. This extension does not collect, store, or transmit any personal data of users. All operations are performed locally within the user's browser.
+
+### What the Extension Does:
+- Extracts the 'sp_dc' cookie from the Spotify website when the user is logged in.
+- Does not store or transmit cookies or any other data to external servers.
+- Requires permissions only for the specific functions of the extension.
+
+### Data Collected:
+- None. The extension performs all functions locally and does not store any data.
+
+### Purpose of Data Processing:
+- Local extraction and usage of the 'sp_dc' cookie to enable Spotube to use the Spotify API.
+
+### Privacy and Security:
+- All data processing occurs locally on the user's device.
+- No data is shared with third parties.
+- No data is stored on servers.
+
+For further information, users can contact the developers through the provided contact information on GitHub or the developer's website.

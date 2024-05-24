@@ -44,9 +44,7 @@ Visit the [Spotube project page on GitHub](https://github.com/KRTirtho/spotube) 
 
 ==============================
 
-[Privacy Policy](#privacy-policy)
-
-## Privacy Policy
+## [Privacy Policy](#privacy-policy)
 
 **Privacy Policy for Spotify Cookie Extractor for Spotube**
 

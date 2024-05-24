@@ -1,0 +1,163 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 0.75em;
+  width: 300px; /* Breite des Popups auf 600px gesetzt */
+  overflow: hidden; /* Verhindert das Scrollen */
+  
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 300px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.glitch {
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+}
+
+.glitch:before, .glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#cookieInfo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#cookieValue {
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+
+#copyButton {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#wrongPageInfo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error {
+  font-size: 1.2em;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+#openSpotifyButton {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.ascii-art {
+  font-size: 0.8em;
+  white-space: pre;
+  text-align: center;
+  overflow: hidden;
+  animation: typing 3s steps(100) forwards, blink-caret 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #0f0 }
+}
+
+.plugin-name {
+  font-size: 3em;
+  color: #0f0;
+  margin-bottom: 10px;
+}
+
+.blinking-cursor {
+  animation: blink 1s infinite;
+  color: #ff0000;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.description {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #0f0; /* Durchgezogene grüne Linie */
+  margin-bottom: 10px;
+}
+
+.info-links {
+  text-align: center;
+}
+
+.info-links p {
+  margin: 5px 0;
+}
+
+.info-links a {
+  color: #0f0;
+  text-decoration: underline;
+}
+
+.info-links a:hover {
+  color: #fff;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #0f0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.language-selection {
+  background-color: rgba(255, 255, 255, 0.1); /* Leicht heller Hintergrund */
+  padding: 10px;
+  border-radius: 5px; /* Abgerundete Ecken */
+  text-align: center;
+  margin: 10px 0;
+}

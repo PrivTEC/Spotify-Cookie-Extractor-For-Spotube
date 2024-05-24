@@ -1,0 +1,11 @@
+{
+  "pluginName": "Spotify Cookie Extractor",
+  "description": "Extracts Spotify cookies for Spotube (Desktop app).",
+  "cookieFound": "Cookie 'sp_dc' found:",
+  "copyButton": "Copy",
+  "wrongPageInfo": "You are on the wrong page. Please visit <strong>open.spotify.com</strong> and log in.",
+  "openSpotifyButton": "Open Spotify",
+  "cookieNotFound": "Cookie not found",
+  "copySuccess": "Cookie copied!",
+  "copyError": "Error copying the cookie."
+}

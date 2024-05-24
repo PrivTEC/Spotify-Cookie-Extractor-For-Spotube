@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Cookie Extractor</title>
+  <link rel="stylesheet" href="../css/popup.css">
+  <script src="../js/popup.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/icon16.png">
+</head>
+<body>
+  <div class="header">
+  <a href="https://github.com/KRTirtho/spotube" target="_blank" title="Spotube on GitHub"><img src="../images/header_logo.png" alt="An open source, cross-platform Spotify client compatible across multiple platforms
+utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source,
+eliminating the need for Spotify Premium" width="150" high="150"/></a>
+    <!--<div class="ascii-art" id="asciiArt">
+              .---. .---. 
+             :     : o   :   
+         _..-:   o :     :-.._    
+     .-''  '  `---' `---' "   ``-.    
+   .'   "   '  "  .    "  . '  "  `.  
+  :   '.---.,,.,...,.,.,.,..---.  ' ;
+  `. " `.                     .' " .'
+   `.  '`.                   .' ' .'
+    `.    `-._           _.-' "  .'  .----.
+      `. "    '"--...--"'  . ' .'  .'  o   `.
+      .'`-._'    " .     " _.-'`. :       o  :
+    .'      ```--.....--'''    ' `:_ o       :
+  .'    "     '         "     "   ; `.;";";";
+ ;         '       "       '     . ; .' ; ; ;
+;     '         '       '   "    .'      .-'
+    </div>-->
+    <div class="footer">
+      <h1 class="plugin-name" id="pluginName">Spotify Cookie Extractor<span class="blinking-cursor">_</span></h1>
+      <p class="description" id="description">Extrahiert Spotify-Cookies für Spotube (Desktop-App).</p>
+      <hr>
+      <div class="info-links">
+        <p><a href="https://nn-crew.cc" target="_blank">Developer: Silvan Fülle</a></p>
+        <p><a href="https://nn-crew.cc" target="_blank">Website: https://nn-crew.cc</a></p>
+        <p><a href="https://github.com/PrivTEC" target="_blank">GitHub: https://github.com/PrivTEC</a></p> 
+      </div>
+    </div>
+    <div class="language-selection">
+      <input type="radio" id="lang_de" name="language" value="de">
+      <label for="lang_de"><img src="../images/de.png" alt="Deutsch" width="30"></label>
+      <input type="radio" id="lang_en" name="language" value="en" checked>
+      <label for="lang_en"><img src="../images/gb.png" alt="English" width="30"></label>
+    </div>
+  </div>
+  <div class="container" id="content">
+    <div id="cookieInfo">
+      <p id="cookieFound">Cookie 'sp_dc' gefunden:</p>
+      <div id="cookieValue"></div>
+      <button id="copyButton">Kopieren</button>
+    </div>
+    <div id="wrongPageInfo" style="display: none;">
+      <p class="error" id="wrongPageText">Sie sind auf der falschen Seite. Bitte besuchen Sie <strong>open.spotify.com</strong> und loggen Sie sich ein.</p>
+      <button id="openSpotifyButton">Öffnen Sie Spotify</button>
+    </div>
+  </div>
+  <div class="close-button" id="closeButton">X</div>
+</body>
+</html>

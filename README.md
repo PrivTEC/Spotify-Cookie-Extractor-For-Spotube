@@ -39,8 +39,7 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-- Silvan Fülle (https://github.com/YourUsername)
-- NN-Crew (https://nn-crew.cc)
+- Silvan Fülle  (https://nn-crew.cc)
 
 ## More Information
 

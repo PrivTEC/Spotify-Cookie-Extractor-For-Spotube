@@ -1,4 +1,8 @@
-# Spotify Cookie Extractor# Spotify Cookie Extractor For Spotube
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PrivTEC/Spotify-Cookie-Extractor-For-Spotube/master/head_gitimg.png" alt="Spotify Cookie Extractor Logo" width="640" height="700">
+</p>
+
+# Spotify Cookie Extractor For Spotube
 
 ## Description
 

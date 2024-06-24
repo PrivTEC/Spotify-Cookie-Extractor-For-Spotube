@@ -4,6 +4,23 @@
 
 # Spotify Cookie Extractor For Spotube
 
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+  - [Method 1: Installation via Chrome Web Store](#method-1-installation-via-chrome-web-store)
+  - [Method 2: Manual Installation](#method-2-manual-installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [More Information](#more-information)
+- [Privacy Policy](#privacy-policy)
+- [Support](#support)
+  - [Buy Me a Coffee](#)
+  - [Donate via PayPal](#)
+  - [QR Codes for Donations](#)
+
 ## Description
 
 This Chrome extension allows you to automatically extract Spotify cookies for use in the open-source music player Spotube. With Spotube, you can listen to music for free without needing a Spotify Premium subscription.
@@ -16,17 +33,42 @@ This Chrome extension allows you to automatically extract Spotify cookies for us
 
 ## Installation
 
-### Method 1: Manual Installation
+### Method 1: Installation via Chrome Web Store
+
+I am excited to announce that the Spotify Cookie Extractor extension is now available on the Chrome Web Store! With just a few clicks, you can install the extension directly into your Chrome browser and start using it immediately.
+
+#### Benefits of Installing from the Chrome Web Store:
+
+- **Easy and Fast**: Installation is just one click away, with no need to manually download or unzip files.
+- **Automatic Updates**: Receive the latest updates and improvements automatically, without any effort on your part.
+- **Verified Security**: The extension has been reviewed by Google, ensuring a secure user experience.
+
+#### Installation Steps:
+
+1. Visit the [Spotify Cookie Extractor page on the Chrome Web Store](https://chromewebstore.google.com/detail/spotify-cookie-extractor/dhdniodhdmgapeeeokimkejdkpgkfhlj).
+2. Click the "Add to Chrome" button.
+3. Confirm the installation by clicking "Add extension".
+
+#### Extension Details:
+
+- **Version**: 1.0.0.1
+- **Updated on**: June 24, 2024
+- **Offered by**: Strategus One
+- **Size**: 155KiB
+- **Languages**: English
+- **Website**: [Strategus One](https://strategus.one)
+
+With this extension, you can seamlessly extract the 'sp_dc' cookies from Spotify and use them in Spotube to enjoy your music without needing a Spotify Premium subscription.
+
+Install the extension today and experience the full functionality of Spotube with minimal effort!
+
+### Method 2: Manual Installation
 
 1. Download the latest version of this extension as a ZIP file from the [Releases page](https://github.com/YourUsername/Spotify-Cookie-Extractor/releases).
 2. Unzip the ZIP file.
 3. Open the Chrome browser and go to `chrome://extensions/`.
 4. Enable Developer mode (toggle switch in the upper right).
 5. Click on "Load unpacked" and select the unzipped folder.
-
-### Method 2: Chrome Web Store (Coming Soon)
-
-Soon, you will be able to download and install this extension directly from the Chrome Web Store. Stay tuned for updates!
 
 ## Usage
 
@@ -35,11 +77,14 @@ Soon, you will be able to download and install this extension directly from the 
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License â€“ see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 
-- Silvan Fülle  (https://nn-crew.cc)
+- **Silvan FÃ¼lle**
+  - [Strategus One](https://strategus.one)
+  - [WalkÃ¼r Technology](https://walkuer.tech)
+  - [NN Crew](https://nn-crew.cc)
 
 ## More Information
 
@@ -70,3 +115,25 @@ The Spotify Cookie Extractor for Spotube is designed to extract the 'sp_dc' cook
 - No data is stored on servers.
 
 For further information, users can contact the developers through the provided contact information on GitHub or the developer's website.
+
+==============================
+
+## Support
+
+If you find this project useful and would like to support its development, consider buying me a coffee or a beer. Your support is greatly appreciated!
+
+**Buy Me a Coffee:**
+
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=silvanfuelle&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/sfuelleh)
+
+<p align="left">
+  <img src="buymeacoffee.png" alt="Buy Me a Coffee QR Code" width="100">
+</p>
+
+Or donate via **PayPal:**
+
+[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate?hosted_button_id=3PETAH54CVMA2)
+
+<p align="left">
+  <img src="pp-qrcode.png" alt="PayPal QR Code" width="100">
+</p>

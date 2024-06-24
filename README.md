@@ -64,7 +64,7 @@ Install the extension today and experience the full functionality of Spotube wit
 
 ### Method 2: Manual Installation
 
-1. Download the latest version of this extension as a ZIP file from the [Releases page](https://github.com/YourUsername/Spotify-Cookie-Extractor/releases).
+1. Download the latest version of this extension as a ZIP file from the [Releases page](https://github.com/PrivTEC/Spotify-Cookie-Extractor-For-Spotube/releases).
 2. Unzip the ZIP file.
 3. Open the Chrome browser and go to `chrome://extensions/`.
 4. Enable Developer mode (toggle switch in the upper right).
